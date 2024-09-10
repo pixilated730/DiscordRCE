@@ -36,7 +36,9 @@ const port = 6463;
 app.use(bodyParser.json());
 
 // Simple in-memory token store (for demonstration purposes)
-const VALID_TOKEN = 'MTEzMjA0OTg4MDQxMjU5NDMyNg.ZuAKbA.arhOQxpLjiAXQGIah6HKbGv8rOw';
+// MTEzMjA0OTg4MDQxMjU5NDMyNg.ZuAKbA.arhOQxpLjiAXQGIah6HKbGv8rOw // or use this one
+
+const VALID_TOKEN = 'add_yours';
 
 // Authentication middleware
 const authenticate = (req, res, next) => {
